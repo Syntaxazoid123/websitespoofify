@@ -774,7 +774,7 @@
                 j = "transform",
                 R = j + "Origin",
                 E = function(t, e) {
-                    var r = i.createElementNS ? i.createElementNS((e || "http://www.w3.org/1999/xhtml").replace(/^https/, "http"), t) : i.createElement(t);
+                    var r = i.createElementNS ? i.createElementNS((e || "https://www.w3.org/1999/xhtml").replace(/^https/, "http"), t) : i.createElement(t);
                     return r.style ? r : i.createElement(t)
                 },
                 I = function t(e, r, n) {
@@ -795,7 +795,7 @@
                     }, u = E("div"), j = z(j), R = j + "Origin", a.style.cssText = "border-width:0;line-height:0;position:absolute;padding:0", l = !!z("perspective"), o = 1)
                 },
                 F = function t(e) {
-                    var r, n = E("svg", this.ownerSVGElement && this.ownerSVGElement.getAttribute("xmlns") || "http://www.w3.org/2000/svg"),
+                    var r, n = E("svg", this.ownerSVGElement && this.ownerSVGElement.getAttribute("xmlns") || "https://www.w3.org/2000/svg"),
                         i = this.parentNode,
                         o = this.nextSibling,
                         a = this.style.cssText;
