@@ -618,7 +618,7 @@
         var Ne = Se;
         const ke = [{
                 path: "/",
-                name: "Active",
+                name: "Home",
                 component: P
             }, {
                 path: "/Active",
