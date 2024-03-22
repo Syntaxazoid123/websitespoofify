@@ -108,7 +108,7 @@
                 default: Object(o["D"])(() => [Object(o["h"])("Home")]),
                 _: 1
             }), Object(o["i"])(i, {
-                to: "/Active"
+                to: "/matchLoadouts"
             }, {
                 default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
                 _: 1
@@ -557,7 +557,7 @@
         ]);
         var we = ve,
             xe = {
-                name: "Active",
+                name: "MatchLoadouts",
                 components: {
                     PlayerComponent: z,
                     PlayerModal: we
@@ -621,8 +621,8 @@
                 name: "Home",
                 component: P
             }, {
-                path: "/Active",
-                name: "Active",
+                path: "/matchLoadouts",
+                name: "MatchLoadouts",
                 component: Ne
             }, {
                 path: "/github",
