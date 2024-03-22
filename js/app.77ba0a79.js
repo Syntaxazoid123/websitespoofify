@@ -103,12 +103,12 @@
             const i = Object(o["x"])("router-link"),
                 d = Object(o["x"])("router-view");
             return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
-                to: "/Active"
+                to: "/"
             }, {
-                default: Object(o["D"])(() => [Object(o["h"])("Home")]),
+                default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
                 _: 1
             }), Object(o["i"])(i, {
-                to: "/"
+                to: "/Active"
             }, {
                 default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
                 _: 1
@@ -153,7 +153,7 @@
             return Object(o["s"])(), Object(o["f"])("div", h, g)
         }
         var f = {
-            name: "Home",
+            name: "Active",
             components: {}
         };
         const j = i()(f, [
@@ -617,11 +617,11 @@
         ]);
         var Ne = Se;
         const ke = [{
-                path: "/Home",
+                path: "/",
                 name: "Home",
                 component: P
             }, {
-                path: "/",
+                path: "/Active",
                 name: "Active",
                 component: Ne
             }, {
