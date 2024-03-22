@@ -99,21 +99,25 @@
                 id: "nav"
             };
 
-function n(e, t, a, n, r, c) {
-    const i = Object(o["x"])("router-link"),
-        d = Object(o["x"])("router-view");
-    return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
-        to: "/"
-    }, {
-        default: Object(o["D"])(() => [Object(o["h"])("Home")]),
-        _: 1
-    }), Object(o["i"])(i, {
-        to: "/matchLoadouts"
-    }, {
-        default: Object(o["D"])(() => [Object(o["h"])("Inventory69")]),
-        _: 1
-    })])])
-}
+        function n(e, t, a, n, r, c) {
+            const i = Object(o["x"])("router-link"),
+                d = Object(o["x"])("router-view");
+            return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
+                to: "/"
+            }, {
+                default: Object(o["D"])(() => [Object(o["h"])("Home")]),
+                _: 1
+            }), Object(o["i"])(i, {
+                to: "/matchLoadouts"
+            }, {
+                default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
+                _: 1
+            }), Object(o["g"])("a", {
+                class: "github"
+            }, ""), Object(o["g"])("a", {
+                class: "github"
+            }, "")]), Object(o["i"])(d)], 64)
+        }
         var r = {
                 name: "App",
                 methods: {
