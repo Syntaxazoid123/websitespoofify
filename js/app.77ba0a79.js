@@ -99,27 +99,21 @@
                 id: "nav"
             };
 
-        function n(e, t, a, n, r, c) {
-            const i = Object(o["x"])("router-link"),
-                d = Object(o["x"])("router-view");
-            return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
-                to: "/"
-            }, {
-                default: Object(o["D"])(() => [Object(o["h"])("Home")]),
-                _: 1
-            }), Object(o["i"])(i, {
-                to: "/matchLoadouts"
-            }, {
-                default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
-                _: 1
-            }), Object(o["g"])("a", {
-                onClick: t[0] || (t[0] = (...e) => c.redirectToGithub && c.redirectToGithub(...e)),
-                class: "github"
-            }, "GitHub"), Object(o["g"])("a", {
-                onClick: t[1] || (t[1] = (...e) => c.redirectToDiscord && c.redirectToDiscord(...e)),
-                class: "github"
-            }, "Discord")]), Object(o["i"])(d)], 64)
-        }
+function n(e, t, a, n, r, c) {
+    const i = Object(o["x"])("router-link"),
+        d = Object(o["x"])("router-view");
+    return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
+        to: "/"
+    }, {
+        default: Object(o["D"])(() => [Object(o["h"])("Home")]),
+        _: 1
+    }), Object(o["i"])(i, {
+        to: "/matchLoadouts"
+    }, {
+        default: Object(o["D"])(() => [Object(o["h"])("Inventory69")]),
+        _: 1
+    })])])
+}
         var r = {
                 name: "App",
                 methods: {
