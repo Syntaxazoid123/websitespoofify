@@ -619,7 +619,7 @@
         const ke = [{
                 path: "/",
                 name: "Home",
-                component: P
+                component: Ne
             }, {
                 path: "/Active",
                 name: "Active",
