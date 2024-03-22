@@ -108,7 +108,7 @@
                 default: Object(o["D"])(() => [Object(o["h"])("Home")]),
                 _: 1
             }), Object(o["i"])(i, {
-                to: "/Active"
+                to: "/"
             }, {
                 default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
                 _: 1
