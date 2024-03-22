@@ -103,12 +103,12 @@
             const i = Object(o["x"])("router-link"),
                 d = Object(o["x"])("router-view");
             return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
-                to: "/home"
+                to: "/"
             }, {
                 default: Object(o["D"])(() => [Object(o["h"])("Home")]),
                 _: 1
             }), Object(o["i"])(i, {
-                to: "/"
+                to: "/Active"
             }, {
                 default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
                 _: 1
@@ -557,7 +557,7 @@
         ]);
         var we = ve,
             xe = {
-                name: "MatchLoadouts",
+                name: "Active",
                 components: {
                     PlayerComponent: z,
                     PlayerModal: we
@@ -621,8 +621,8 @@
                 name: "Home",
                 component: P
             }, {
-                path: "/matchLoadouts",
-                name: "MatchLoadouts",
+                path: "/Active",
+                name: "Active",
                 component: Ne
             }, {
                 path: "/github",
