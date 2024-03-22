@@ -105,7 +105,7 @@
             return Object(o["s"])(), Object(o["f"])(o["a"], null, [l, Object(o["g"])("div", s, [Object(o["i"])(i, {
                 to: "/"
             }, {
-                default: Object(o["D"])(() => [Object(o["h"])("Match Loadouts")]),
+                default: Object(o["D"])(() => [Object(o["h"])("Home")]),
                 _: 1
             }), Object(o["i"])(i, {
                 to: "/Active"
@@ -153,7 +153,7 @@
             return Object(o["s"])(), Object(o["f"])("div", h, g)
         }
         var f = {
-            name: "Active",
+            name: "Home",
             components: {}
         };
         const j = i()(f, [
@@ -618,8 +618,8 @@
         var Ne = Se;
         const ke = [{
                 path: "/",
-                name: "Home",
-                component: Ne
+                name: "Active",
+                component: P
             }, {
                 path: "/Active",
                 name: "Active",
